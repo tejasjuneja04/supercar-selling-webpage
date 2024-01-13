@@ -1,0 +1,416 @@
+/* Additional styles for the sports car selling page */
+/* ... (unchanged styles for the car section) ... */
+
+/* Updated styles for Turbo Toys */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171717;
+    color: #fff;
+}
+
+
+
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #070707;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#home {
+    background: linear-gradient(to right, #ffd700, #ff9100);
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+
+.button,
+.button:hover {
+    background: none;
+    border: none;
+    color: #0f0e0e;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+
+.button,
+.button-gradient,
+.search-button,
+.subscribe-button {
+    background: linear-gradient(to right, #191212, #990000);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+
+.button:hover,
+.button-gradient:hover,
+.search-button:hover,
+.subscribe-button:hover {
+    background: linear-gradient(to right, #990000, #660000);
+}
+
+.header {
+    background: url('header-background.jpg') center/cover;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.header::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.header h1:hover {
+    animation: pulse 1s infinite;
+}
+
+/* Feel the Thrill of the Road section */
+/* ... (previous styles) ... */
+
+/* Feel the Thrill of the Road section */
+#feel-the-thrill {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px; /* Adjust the padding as needed */
+    background: url('pexels-albin-berlin-919073.jpg') center/cover;
+}
+
+#feel-the-thrill::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+    #feel-the-thrill h2 {
+        font-size: 4em; /* Adjust the font size as needed */
+        margin-bottom: 400px;
+        color: #cc0000;
+        text-transform: uppercase;
+        position: ;
+        z-index: 1;
+    }
+
+/* ... (remaining styles) ... */
+
+
+/* Welcome to your love for supercars section */
+#welcome-to-love {
+    padding: 30px;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#welcome-to-love h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    color: #f8f5f5;
+    text-transform: uppercase;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-input,
+.subscribe-input {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-right: 10px;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Additional styles for the search button */
+.search-button,
+.subscribe-button {
+    background: linear-gradient(to right, #cc0000, #990000);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+
+.search-button:hover,
+.subscribe-button:hover {
+    background: linear-gradient(to right, #171515, #660000);
+}
+
+/* ... (unchanged styles for the car section) ... */
+
+/* How It Works section styles */
+#how-it-works,
+#subscribe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Updated styles for the subscription section */
+#subscribe {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#subscribe label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#subscribe input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 1em;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+#subscribe button {
+    background: linear-gradient(to right, #fcfcfc, rgb(255, 0, 0), 0, 0));
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+
+#subscribe button:hover {
+    background: linear-gradient(to right, #cca300, #b37f00);
+    color: #fff;
+}
+
+/* Additional styles for emphasized sections */
+.emphasized-section {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #cc0000;
+    text-transform: uppercase;
+}
+
+/* Additional styles for the How It Works section */
+#how-it-works h2 {
+    font-size: 2.5em;
+    color: #cc0000;
+}
+/* ... (previous styles) ... */
+
+.button,
+.button-gradient,
+.search-button
+.subscribe-button{
+    background: linear-gradient(to right, #fcfcfc, rgb(255, 0, 0), 0, 0));
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+}
+#home{
+    background: linear-gradient(to right, #fcfcfc, rgb(255, 0, 0), 0, 0));
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+}
+
+#cars,
+#team,
+#contact {
+    background: linear-gradient(to right, #cc0000, #990000);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+
+#home:hover
+,
+#cars:hover,
+#team:hover,
+#contact:hover {
+    background: linear-gradient(to right, #1c0f0f, #660000);
+}
+
+
+.larger-text {
+    font-size: 1.3em;
+}
+
+/* ... (remaining styles) ... */
+/* ... (previous styles) ... */
+
+/* Cars for Sale section */
+.car-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.car {
+    width: 300px; 
+    margin: 20px; 
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.car-details {
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buy-button {
+    background-color: #cc0000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #990000;
+}
+
+
+
+
+.car-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.car {
+    width: 300px;
+    margin: 20px;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.car-details {
+    background-color: #100c0c;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buy-button {
+    background-color: #cc0000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #990000;
+}
+
+/* ... (remaining styles) ... */
